@@ -1,10 +1,15 @@
-import './app.scss'
+import Header from './layouts/Header'
+import Router from './Router'
+import './assets/scss/ui.scss'
 
 function App() {
-
   return (
     <>
-      <div>guide</div>      
+      <Header />
+
+      <main className='manage-main'>
+        <Router />
+      </main>
     </>
   )
 }

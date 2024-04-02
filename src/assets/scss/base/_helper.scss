@@ -1,0 +1,51 @@
+/* =================== helper =================== */
+// 노출되지 않을 영역
+.d-none {
+    display: none;
+}
+
+// 보이진 않지만 리딩되는 영역
+.voice-only {
+    overflow: hidden;
+    z-index: -10;
+    position: relative;
+    top: 0;
+    left: -1px;
+    width: 1px;
+    height: 1px;
+    font-size: 1px;
+    color: transparent !important;
+}
+
+// text
+.text-center {
+    text-align: center;
+}
+
+// flex content
+.flex-btw-wrap {
+    @include flex-btw;
+}
+
+// scroll custom element에 height 지정 필수
+.scroll-custom {
+    @include custom-scroll;
+
+    overflow-y: auto;
+    overscroll-behavior: contain;
+}
+
+// responsive
+.tab-hide {
+    @include tablet() {
+        display: none !important;
+    }
+}
+
+.tab-show {
+    display: none !important;
+
+    @include tablet() {
+        display: block !important;
+    }
+}
