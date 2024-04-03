@@ -1,6 +1,6 @@
+import './assets/scss/ui.scss'
 import Header from './layouts/Header'
 import Router from './Router'
-import './assets/scss/ui.scss'
 import { useEffect, useState } from 'react'
 
 function App() {
