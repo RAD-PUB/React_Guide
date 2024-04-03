@@ -1,9 +1,10 @@
+import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Content from './pages/Content'
 import Form from './pages/Form'
 import Title from './pages/Title'
 import Modal from './pages/Modal'
-import MixinGuide from './pages/MixinGuide'
+const MixinGuide = React.lazy(() => import('./pages/MixinGuide'));
 
 const Router = () => {
     return (
