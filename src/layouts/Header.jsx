@@ -10,7 +10,14 @@ const Header = () => {
                 </div>
             </div>
             <div className="manage-left-hd">
-                <button type="button" className="btn-gnb-icon tab-show">
+                <button 
+                    type="button" 
+                    className="btn-gnb-icon tab-show"
+                    onClick={(e) => {
+                        let leftHd = e.target.parentElement
+                        leftHd.classList.toggle('tab-active');
+                    }}
+                >
                     <span className="voice-only">메뉴 보기</span>
                 </button>
                 <h1 className="manage-logo-wrap">
@@ -23,6 +30,9 @@ const Header = () => {
                     </div>
                     <div className="manage-onedap-wrap">
                         <a href="http://localhost:5173/title" className="nav-ttl">Title</a>
+                    </div>
+                    <div className="manage-onedap-wrap">
+                        <a href="http://localhost:5173/modal" className="nav-ttl">Modal</a>
                     </div>
                 </nav>
             </div>

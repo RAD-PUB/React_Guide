@@ -88,6 +88,7 @@
         display: block;
         width: $hd-height;
         height: $hd-height;
+        cursor: pointer;
 
         @include make-virtual {
             position: absolute;

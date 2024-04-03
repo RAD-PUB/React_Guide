@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Content from './pages/Content'
 import Form from './pages/Form'
 import Title from './pages/Title'
+import Modal from './pages/Modal'
 
 const Router = () => {
     return (
@@ -10,6 +11,7 @@ const Router = () => {
                 <Route path='/' element={<Content />} />
                 <Route path='/form' element={<Form />} />
                 <Route path='/title' element={<Title />} />
+                <Route path='/modal' element={<Modal />} />
             </Routes>
         </BrowserRouter>
     )
