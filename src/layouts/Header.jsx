@@ -26,13 +26,16 @@ const Header = () => {
                 </h1>
                 <nav className="manage-gnb scroll-custom">
                     <div className="manage-onedap-wrap">
-                        <a href="http://localhost:5173/form" className="nav-ttl">Form</a>
+                        <a href="/mixin" className="nav-ttl">Mixin Guide</a>
                     </div>
                     <div className="manage-onedap-wrap">
-                        <a href="http://localhost:5173/title" className="nav-ttl">Title</a>
+                        <a href="/form" className="nav-ttl">Form</a>
                     </div>
                     <div className="manage-onedap-wrap">
-                        <a href="http://localhost:5173/modal" className="nav-ttl">Modal</a>
+                        <a href="/title" className="nav-ttl">Title</a>
+                    </div>
+                    <div className="manage-onedap-wrap">
+                        <a href="/modal" className="nav-ttl">Modal</a>
                     </div>
                 </nav>
             </div>

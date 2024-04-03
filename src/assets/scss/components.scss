@@ -7,6 +7,12 @@
 // only components.html
 
 // component container style
+p.component-warning {
+  font-weight: 900;
+  font-size: 30px;
+  color: #00f;
+}
+
 .component-container {
 	margin: 20px 0;
 }
