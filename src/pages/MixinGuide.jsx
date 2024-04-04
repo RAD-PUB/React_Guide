@@ -3,12 +3,17 @@ import '../assets/scss/mixinGuide.scss'
 const MixinGuide = () => {
     return (
         <>
-          <p className="component-warning">
-            (❁´◡`❁)본문의 코드는 참고용입니다.(❁´◡`❁)
-          </p>
           <h2 className="main-ttl">믹스인 사용 설명서</h2>
           <p className="page-breadcrumb">Home &gt; 믹스인 사용 설명서</p>
-  
+          <p className="component-warning">
+            (❁´◡`❁)본문의 코드는 참고용입니다.(❁´◡`❁)<br />
+          </p>
+          <div className="component-desc">
+            파일 위치 : scss//utility/_mixin.scss<br />
+            사용하기전에 믹스인의 세부 내용을 프로젝트에 맞춰 변경해 사용해주세요.<br />
+            (mobile/tablet의 시작점, custom-scroll의 색, 크기 등)
+          </div>
+
           {/* =================== START media query =================== */}
           <section className="component-container">
             <h2 className="component-ttl">반응형</h2>
@@ -50,7 +55,7 @@ const MixinGuide = () => {
             <article className="mixin-wrapper">
               <h3 className="component-sub-ttl">@include media-h</h3>
               <div className="component-desc">
-                벨류로 해당 화면의 height를를 단위를 붙여 적고, 중괄호 안쪽에 스타일을
+                벨류로 해당 화면의 height를 단위를 붙여 적고, 중괄호 안쪽에 스타일을
                 적습니다.
               </div>
               <div className="component-desc">
@@ -193,7 +198,7 @@ const MixinGuide = () => {
             <article className="mixin-wrapper">
               <h3 className="component-sub-ttl">@include flex</h3>
               <div className="component-desc">
-                기본값은 display: flex. 벨류이 display로 리턴됩니다.
+                기본값은 display: flex.
               </div>
               <div className="component-desc">
                 flex관련 스타일은 중괄호 안쪽에 적습니다.
@@ -233,7 +238,7 @@ const MixinGuide = () => {
             <article className="mixin-wrapper">
               <h3 className="component-sub-ttl">@include flex-col</h3>
               <div className="component-desc">
-                flex의 방향이 column일 경우 사용합니다. 벨류는 위와같이 display로 리턴됩니다.
+                flex의 방향이 column일 경우 사용합니다.
               </div>
               <div className="component-desc">
                 flex관련 스타일은 중괄호 안쪽에 적습니다.
@@ -275,7 +280,7 @@ const MixinGuide = () => {
                 flex의 축 정렬을 정의합니다.
               </div>
               <div className="component-desc">
-                align-items / justift-content 순으로 적습니다.
+                align-items, justift-content 순으로 적습니다.
               </div>
               <div className="ex-flex ex5">
                 <div>box1</div>
@@ -756,7 +761,7 @@ const MixinGuide = () => {
             <article className="mixin-wrapper">
               <h3 className="component-sub-ttl">@include remove-ellipse</h3>
               <div className="component-desc">
-                믹스인설명하기
+                내용 더보기 버튼같이 한 화면에서 문단 말줄임표를 없애는 경우 사용합니다.
               </div>
               <div className="ex-t ex9-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
               
