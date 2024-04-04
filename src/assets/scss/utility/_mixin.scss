@@ -116,18 +116,6 @@
 }
 
 // input
-@mixin input-reset {
-    border-radius: 0;
-    background-color: transparent;
-    border: 0;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    padding: 0;
-    outline: none;
-    box-shadow: none;
-}
-
 @mixin hover {
     &:hover,
     &:focus {
@@ -146,6 +134,30 @@
     &:disabled:hover,
     &:disabled:focus {
         @content;
+    }
+}
+
+// scroll custom style
+@mixin custom-scroll($c: color(main-300), $sub-c: color(gray-200), $r: 0, $s: 6px) {
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+        width: $s;
+        height: $s;
+        background-color: $sub-c;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: $c;
+        border-radius: $r;
+    }
+}
+
+@mixin hide-scroll {
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+        display: none !important;
     }
 }
 
@@ -169,26 +181,6 @@
     line-height: 1.4;
     -webkit-line-clamp: unset; // $line-cnt : 라인 수
     -webkit-box-orient: unset;
-}
-
-// scroll custom style
-@mixin custom-scroll($c: color(gray-400), $sub-c: #fff, $r: 0, $s: 6px) {
-    &::-webkit-scrollbar {
-        width: $s;
-        height: $s;
-        background-color: $sub-c;
-    }
-
-    &::-webkit-scrollbar-thumb {
-        background-color: $c;
-        border-radius: $r;
-    }
-}
-
-@mixin hide-scroll {
-    &::-webkit-scrollbar {
-        display: none !important;
-    }
 }
 
 // typography

@@ -140,6 +140,7 @@
   }
 }
 
+// flexs
 .ex-flex {
   margin: 20px 0;
   background-color: beige;
@@ -204,4 +205,106 @@
       background-color: skyblue;
     }
   }
+}
+
+// inputs
+.inp-ex {
+  width: 100%;
+  max-width: 300px;
+  margin-top: 10px;
+
+  input {
+    width: 100%;
+    height: 50px;
+    padding: 0 15px;
+    border: 3px solid red;
+    
+    @include hover {
+      border: 3px solid blue;
+    }
+
+    @include active {
+      background-color: beige;
+    }
+
+    @include disabled {
+      background-color: lightgray;
+      border-color: gray;
+
+    }
+  }
+}
+
+// scroll
+.scroll-ex1 {
+  @include custom-scroll;
+
+  max-width: 500px;
+  height: 100px;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: color(gray-200);
+
+  div {
+    height: 1000px;
+  }
+}
+
+.scroll-ex2 {
+  @include hide-scroll;
+
+  max-width: 500px;
+  height: 100px;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: color(gray-200);
+
+  div {
+    height: 1000px;
+  }
+}
+
+// typo
+.ex-t {
+  max-width: 300px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: color(red-50);
+  font-size: 16px;
+}
+
+.ex9 {
+  @include ellipse(2, 24px);
+
+  padding: 0 10px;
+}
+
+.ex9-1 {
+  @include ellipse(2, 24px);
+  @include remove-ellipse;
+}
+
+.ex10-1 {
+  @include ttl-style01;
+}
+
+.ex10-2 {
+  @include ttl-style02;
+}
+
+.ex10-3 {
+  @include bd-style01;
+}
+
+.ex10-4 {
+  @include bd-style02;
+}
+
+.ex10-5 {
+  @include bd-style03;
+}
+
+.ex10-6 {
+  @include bd-style04;
 }
