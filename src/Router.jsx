@@ -18,7 +18,7 @@ const Router = () => {
                 <Route path='/input' element={<Input />} />
                 <Route path='/form' element={<Form />} />
                 <Route path='/modal' element={<Modal />} />
-                <Route path='/title' element={<Typo />} />
+                <Route path='/typo' element={<Typo />} />
             </Routes>
         </BrowserRouter>
     )
