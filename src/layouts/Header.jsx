@@ -32,7 +32,7 @@ const Header = () => {
                         <a href="/form" className="nav-ttl">Form</a>
                     </div>
                     <div className="manage-onedap-wrap">
-                        <a href="/title" className="nav-ttl">Title</a>
+                        <a href="/title" className="nav-ttl">Typo</a>
                     </div>
                     <div className="manage-onedap-wrap">
                         <a href="/modal" className="nav-ttl">Modal</a>

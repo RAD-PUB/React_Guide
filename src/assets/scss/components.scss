@@ -78,17 +78,33 @@ p.component-warning {
 
 //
 .bd-style01 {
-	@include bd-style01(400);
+	@include bd-style01;
+}
+
+.bd-style01-b {
+	@include bd-style01(600);
 }
 
 .bd-style02 {
-	@include bd-style02(400);
+	@include bd-style02;
+}
+
+.bd-style02-b {
+	@include bd-style02(600);
 }
 
 .bd-style03 {
-	@include bd-style03(400);
+	@include bd-style03;
+}
+
+.bd-style03-b {
+	@include bd-style03(600);
 }
 
 .bd-style04 {
-	@include bd-style04(400);
+	@include bd-style04;
+}
+
+.bd-style04-b {
+	@include bd-style04(600);
 }
