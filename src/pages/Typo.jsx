@@ -13,8 +13,8 @@ const Typo = () => {
       </section>
 
       <section>
-        <Breadcrumb>컴포넌트입니다.</Breadcrumb>
-        <Breadcrumb>Home &gt; 관리자 관리 &gt; 관리자 목록</Breadcrumb>
+        <h1 className="component-sub-ttl">페이지 분류</h1>
+        <Breadcrumb>Home &gt; 관리자 관리 &gt; 관리자 목록 / 컴포넌트입니다.</Breadcrumb>
       </section>
 
       <section>
