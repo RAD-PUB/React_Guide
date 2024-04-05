@@ -37,6 +37,9 @@ const Header = () => {
                     <div className="manage-onedap-wrap">
                         <a href="/modal" className="nav-ttl">Modal</a>
                     </div>
+                    <div className="manage-onedap-wrap">
+                        <a href="/input" className="nav-ttl">Input</a>
+                    </div>
                 </nav>
             </div>
         </header>
