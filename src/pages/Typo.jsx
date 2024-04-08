@@ -7,23 +7,48 @@ const Typo = () => {
   return (
     <>
       {/* page title */}
+        <PageTitle>문단스타일 가이드</PageTitle>
+        <Breadcrumb>Home &gt; 문단스타일 가이드</Breadcrumb>
       <section>
         <h1 className="component-sub-ttl">페이지 제목</h1>
         <PageTitle>페이지제목 컴포넌트입니다.</PageTitle>
+        
+        <aside className="code-wrap">
+          <div className="code">
+            &lt; <span className="green">PageTitle</span>
+            &gt;<span>페이지제목</span>&lt;{'/'}<span className="green">PageTitle</span> &gt;
+          </div>
+        </aside>
       </section>
 
       <section>
         <h1 className="component-sub-ttl">페이지 분류</h1>
         <Breadcrumb>Home &gt; 관리자 관리 &gt; 관리자 목록 / 컴포넌트입니다.</Breadcrumb>
+        
+        <aside className="code-wrap">
+          <div className="code">
+            &lt; <span className="green">Breadcrumb</span>
+            &gt;<span>Home &gt; 관리자 관리</span>&lt;{'/'}<span className="green">Breadcrumb</span> &gt;
+          </div>
+        </aside>
       </section>
 
       <section>
         <h1 className="component-sub-ttl">중간 제목</h1>
         <SubTitle>중간 제목 컴포넌트입니다</SubTitle>
+        
+        <aside className="code-wrap">
+          <div className="code">
+            &lt; <span className="green">SubTitle</span>
+            &gt;<span>중간 제목</span>&lt;{'/'}<span className="green">SubTitle</span> &gt;
+          </div>
+        </aside>
       </section>
 
       <section>
         <h1 className="component-sub-ttl">내용</h1>
+        <div className="component-desc">여기에 사용된 코드는 믹스인가이드를 참고해주세요.</div>
+
         <div className="conponent-desc">
           <p className="bd-style01">
             내용에 쓰이는 글씨중 큰 사이즈
