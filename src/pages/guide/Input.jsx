@@ -1,3 +1,5 @@
+import "../../assets/scss/components.scss";
+
 const optList = [
   {text: "option01"},
   {text: "option02"},

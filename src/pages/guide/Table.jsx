@@ -1,10 +1,10 @@
-import "../assets/scss/components.scss";
-import ManageMultiTable from "../components/table/ManageMultiTable";
-import ManageColumnTable from "../components/table/ManageColumnTable";
-import ManageTable from "../components/table/ManageTable";
-import ManageTatleTable from "../components/table/ManageTatleTable";
-import Breadcrumb from "../components/typo/Breadcrumb";
-import PageTitle from "../components/typo/PageTitle";
+import "../../assets/scss/components.scss";
+import ManageMultiTable from "../../components/table/ManageMultiTable";
+import ManageColumnTable from "../../components/table/ManageColumnTable";
+import ManageTable from "../../components/table/ManageTable";
+import ManageTatleTable from "../../components/table/ManageTatleTable";
+import Breadcrumb from "../../components/typo/Breadcrumb";
+import PageTitle from "../../components/typo/PageTitle";
 
 const Table = () => {
   return (

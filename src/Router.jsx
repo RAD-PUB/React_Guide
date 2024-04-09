@@ -1,14 +1,14 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Content from './pages/Content'
-import Typo from './pages/Typo'
-import Modal from './pages/Modal'
-import Button from './pages/Button'
-import Table from './pages/Table'
-import Tab from './pages/Tab'
 
-const MixinGuide = React.lazy(() => import('./pages/MixinGuide'));
-const Input = React.lazy(() => import('./pages/Input'));
+const MixinGuide = React.lazy(() => import('./pages/guide/MixinGuide'));
+const Input = React.lazy(() => import('./pages/guide/Input'));
+const Button = React.lazy(() => import('./pages/guide/Button'));
+const Typo = React.lazy(() => import('./pages/guide/Typo'));
+const Table = React.lazy(() => import('./pages/guide/Table'));
+const Tab = React.lazy(() => import('./pages/guide/Tab'));
+const Modal = React.lazy(() => import('./pages/guide/Modal'));
 
 const Router = () => {
     return (

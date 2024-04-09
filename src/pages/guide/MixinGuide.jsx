@@ -1,4 +1,4 @@
-import '../assets/scss/mixinGuide.scss'
+import '../../assets/scss/mixinGuide.scss'
 
 const MixinGuide = () => {
     return (

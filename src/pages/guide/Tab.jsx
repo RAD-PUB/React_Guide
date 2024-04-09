@@ -1,4 +1,4 @@
-import '../assets/scss/components.scss'
+import '../../assets/scss/components.scss'
 
 const Tab = () => {
     return (
