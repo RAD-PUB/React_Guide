@@ -4,8 +4,9 @@ const Header = () => {
   const pageName = [
 		"button", 
 		"input", 
-		"table", 
 		"typo", 
+		"table", 
+		"tab", 
 		"modal"
 	];
 

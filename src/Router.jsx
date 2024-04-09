@@ -5,6 +5,7 @@ import Typo from './pages/Typo'
 import Modal from './pages/Modal'
 import Button from './pages/Button'
 import Table from './pages/Table'
+import Tab from './pages/Tab'
 
 const MixinGuide = React.lazy(() => import('./pages/MixinGuide'));
 const Input = React.lazy(() => import('./pages/Input'));
@@ -17,8 +18,9 @@ const Router = () => {
                 <Route path='/mixin' element={<MixinGuide />} />
                 <Route path='/button' element={<Button />} />
                 <Route path='/input' element={<Input />} />
-                <Route path='/table' element={<Table />} />
                 <Route path='/typo' element={<Typo />} />
+                <Route path='/table' element={<Table />} />
+                <Route path='/tab' element={<Tab />} />
                 <Route path='/modal' element={<Modal />} />
             </Routes>
         </BrowserRouter>
