@@ -1,3 +1,4 @@
+import '../../assets/scss/components.scss'
 import '../../assets/scss/mixinGuide.scss'
 
 const MixinGuide = () => {
