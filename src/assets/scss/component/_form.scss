@@ -379,7 +379,7 @@
 
   .cell {
     height: 48px;
-    padding: 0 15px;
+    padding: 0 10px;
     line-height: 1.4;
     text-align: center;
     vertical-align: middle;
@@ -392,7 +392,7 @@
   }
 
   .cell-chck {
-    width: 3em;
+    width: 50px;
 
     .inp-grp {
       display: inline-block;
@@ -400,11 +400,11 @@
   }
 
   .cell-num {
-    width: 3em;
+    width: 80px;
   }
 
   .cell-division {
-    width: 5em;
+    width: 150px;
   }
 
   .cell-ttl {
@@ -416,27 +416,11 @@
   }
 
   .cell-date {
-    width: 15em;
-  }
-
-  .cell-place {
-    width: 8em;
-  }
-
-  .cell-target {
-    width: 5.5em;
-  }
-
-  .cell-atnum {
-    width: 5.5em;
-  }
-
-  .cell-atrate {
-    width: 3em;
+    width: 150px;
   }
 
   .cell-more {
-    width: 6.5em;
+    width: 120px;
   }
 }
 

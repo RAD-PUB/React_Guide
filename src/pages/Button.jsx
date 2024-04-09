@@ -1,10 +1,10 @@
 import "../assets/scss/components.scss";
-import PageTitle from "../layouts/typo/PageTitle";
-import Breadcrumb from "../layouts/typo/Breadcrumb";
-import ButtonMedium from "../layouts/button/ButtonMedium";
-import ButtonLarge from "../layouts/button/ButtonLarge";
-import ButtonXLarge from "../layouts/button/ButtonXLarge";
-import Pagination from "../layouts/button/Pagination";
+import PageTitle from "../components/typo/PageTitle";
+import Breadcrumb from "../components/typo/Breadcrumb";
+import ButtonMedium from "../components/button/ButtonMedium";
+import ButtonLarge from "../components/button/ButtonLarge";
+import ButtonXLarge from "../components/button/ButtonXLarge";
+import Pagination from "../components/button/Pagination";
 
 const Button = () => {
   return (

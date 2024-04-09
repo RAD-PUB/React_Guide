@@ -1,7 +1,7 @@
 import "../assets/scss/components.scss";
-import Breadcrumb from "../layouts/typo/Breadcrumb";
-import PageTitle from "../layouts/typo/PageTitle";
-import SubTitle from "../layouts/typo/SubTitle";
+import Breadcrumb from "../components/typo/Breadcrumb";
+import PageTitle from "../components/typo/PageTitle";
+import SubTitle from "../components/typo/SubTitle";
 
 const Typo = () => {
   return (

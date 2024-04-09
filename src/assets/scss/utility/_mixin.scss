@@ -171,7 +171,7 @@
     -webkit-line-clamp: $line-cnt; // $line-cnt : 라인 수
     -webkit-box-orient: vertical;
     text-overflow: ellipsis;
-    word-wrap: break-word;
+    word-break: break-all;
 }
 
 @mixin remove-ellipse {
