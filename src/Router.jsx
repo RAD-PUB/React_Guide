@@ -1,10 +1,11 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Content from './pages/Content'
-import Form from './pages/Form'
 import Typo from './pages/Typo'
 import Modal from './pages/Modal'
 import Button from './pages/Button'
+import Table from './pages/Table'
+
 const MixinGuide = React.lazy(() => import('./pages/MixinGuide'));
 const Input = React.lazy(() => import('./pages/Input'));
 
@@ -16,9 +17,9 @@ const Router = () => {
                 <Route path='/mixin' element={<MixinGuide />} />
                 <Route path='/button' element={<Button />} />
                 <Route path='/input' element={<Input />} />
-                <Route path='/form' element={<Form />} />
-                <Route path='/modal' element={<Modal />} />
+                <Route path='/table' element={<Table />} />
                 <Route path='/typo' element={<Typo />} />
+                <Route path='/modal' element={<Modal />} />
             </Routes>
         </BrowserRouter>
     )
