@@ -4,6 +4,7 @@ import Breadcrumb from "../layouts/typo/Breadcrumb";
 import ButtonMedium from "../layouts/button/ButtonMedium";
 import ButtonLarge from "../layouts/button/ButtonLarge";
 import ButtonXLarge from "../layouts/button/ButtonXLarge";
+import Pagination from "../layouts/button/Pagination";
 
 const Button = () => {
   return (
@@ -23,6 +24,7 @@ const Button = () => {
           {/* 버튼 크기관련 수정법 */}
         <aside className="component-container">
           <h3 className="component-sub-ttl">버튼 크기 추가 및 삭제</h3>
+        <p className="component-desc">폰트 적용후 글자가 위쪽으로 쏠려있는게 보인다면 버튼 높이 설정에서 padding-top을 1~3px 추가합니다.</p>
           <ol className="component-desc-list">
             <li>
               <p className="component-desc">버튼의 크기관련 스타일은 button.scss에서 추가합니다.</p>
@@ -44,8 +46,10 @@ const Button = () => {
               
               <div className="code-wrap">
                 <div className="code">
+                  &lt;<span className="blue">div</span> class=<span className="skyblue">{'"btns-wrap"'}</span>&gt;<br />
                   &lt; <span className="green">ButtonMedium</span> <span className="skyblue">color</span>{'="'}<span className="red">main</span>{'"'}
                   &gt;<span>버튼입니다</span>&lt;{'/'}<span className="green">ButtonMedium</span> &gt;
+                  &lt;{'/'}<span className="blue">div</span>&gt;
                 </div>
               </div>
             </li>
@@ -63,11 +67,11 @@ const Button = () => {
                 </div>
 
                 <div className="btns-wrap">
-                  <ButtonMedium color="ghost-red">컬러값이 없음</ButtonMedium>
+                  <ButtonMedium color="ghost-red">유효하지 않은 컬러값</ButtonMedium>
                 </div>
 
                 <div className="btns-wrap">
-                  <ButtonMedium color="bd-red">컬러값이 있음</ButtonMedium>
+                  <ButtonMedium color="bd-red">유효한 컬러값</ButtonMedium>
                 </div>
               </div>
             </li>
@@ -87,7 +91,7 @@ const Button = () => {
                   <span className="blue">$btn-color</span>{'{'}<br />
                   <span className="skyblue dep1">main</span>: <span className="people">main</span>,<br />
                   <span className="skyblue dep1">red</span>: <span className="people">red</span>,<br />
-                  <span className="yellow">{'//'} 추가할 색 이름 : color-set 에 있는 색 이름</span><br />
+                  <span className="yellow">{'//'} 추가할 색 이름 : 맵 $color-set 에 적힌 색 이름</span><br />
                   {'}'}
                 </div>
               </div>
@@ -111,8 +115,10 @@ const Button = () => {
               
               <div className="code-wrap">
                 <div className="code">
+                  &lt;<span className="blue">div</span> class=<span className="skyblue">{'"btns-wrap"'}</span>&gt;<br />
                   &lt; <span className="green">ButtonMedium</span> <span className="skyblue">color</span>{'="'}<span className="red">main</span>{'"'}
-                  &gt;<span>버튼입니다</span>&lt;{'/'}<span className="green">ButtonMedium</span> &gt;
+                  &gt;<span>버튼입니다</span>&lt;{'/'}<span className="green">ButtonMedium</span> &gt;<br />
+                  &lt;{'/'}<span className="blue">div</span>&gt;
                 </div>
               </div>
             </li>
@@ -135,8 +141,10 @@ const Button = () => {
           
           <aside className="code-wrap">
             <div className="code">
+              &lt;<span className="blue">div</span> class=<span className="skyblue">{'"btns-wrap"'}</span>&gt;<br />
               &lt; <span className="green">ButtonMedium</span> <span className="skyblue">color</span>{'="'}<span className="red">main</span>{'"'}
-              &gt;<span>버튼입니다</span>&lt;{'/'}<span className="green">ButtonMedium</span> &gt;
+              &gt;<span>버튼입니다</span>&lt;{'/'}<span className="green">ButtonMedium</span> &gt;<br />
+              &lt;{'/'}<span className="blue">div</span>&gt;
             </div>
           </aside>
 
@@ -157,8 +165,10 @@ const Button = () => {
           
           <aside className="code-wrap">
             <div className="code">
+              &lt;<span className="blue">div</span> class=<span className="skyblue">{'"btns-wrap"'}</span>&gt;<br />
               &lt; <span className="green">ButtonLarge</span> <span className="skyblue">color</span>{'="'}<span className="red">main</span>{'"'}
-              &gt;<span>버튼입니다</span>&lt;{'/'}<span className="green">ButtonLarge</span> &gt;
+              &gt;<span>버튼입니다</span>&lt;{'/'}<span className="green">ButtonLarge</span> &gt;<br />
+              &lt;{'/'}<span className="blue">div</span>&gt;
             </div>
           </aside>
 
@@ -179,8 +189,28 @@ const Button = () => {
           
           <aside className="code-wrap">
             <div className="code">
+              &lt;<span className="blue">div</span> class=<span className="skyblue">{'"btns-wrap"'}</span>&gt;<br />
               &lt; <span className="green">ButtonXLarge</span> <span className="skyblue">color</span>{'="'}<span className="red">main</span>{'"'}
-              &gt;<span>버튼입니다</span>&lt;{'/'}<span className="green">ButtonXLarge</span> &gt;
+              &gt;<span>버튼입니다</span>&lt;{'/'}<span className="green">ButtonXLarge</span> &gt;<br />
+              &lt;{'/'}<span className="blue">div</span>&gt;
+            </div>
+          </aside>
+
+        </article>
+
+        <article>
+          <h4 className="component-sub-ttl">pagination</h4>
+          <p className="component-desc">여기서는 페이지네이션을 컴포넌트로 만들었습니다.</p>
+          <p className="component-desc">개발자 성향에 따라 컴포넌트가 불편할 수 있으니 사전 상의가 필요합니다.</p>
+          <p className="component-desc">컴포넌트를 선호하지 않으면 컴포넌트의 내용을 페이지에 복사해 사용해주세요.</p>
+
+          <Pagination pageactive="5"></Pagination>
+          
+          <aside className="code-wrap">
+            <div className="code">
+              &lt; <span className="green">Pagination</span> <span className="skyblue">pageactive</span>{'="'}<span className="red">number</span>{'"'}
+              &gt;<span></span>&lt;{'/'}<span className="green">Pagination</span> &gt;<br />
+              <span className="yellow">{'//'} number에 해당하는 숫자에 클래스 on이 추가됨</span>
             </div>
           </aside>
 
