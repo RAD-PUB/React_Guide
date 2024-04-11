@@ -1,12 +1,4 @@
-// color list
-// basic
-// main
-// red
-// bd-basic
-// bd-main
-// bd-red
-
-function ManageColumnTable() {
+function TableColumn() {
   return (
     <>
     <div className="table-container">
@@ -39,4 +31,4 @@ function ManageColumnTable() {
   );
 }
 
-export default ManageColumnTable;
+export default TableColumn;

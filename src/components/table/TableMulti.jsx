@@ -1,12 +1,4 @@
-// color list
-// basic
-// main
-// red
-// bd-basic
-// bd-main
-// bd-red
-
-function ManageMultiTable() {
+function TableMulti() {
   return (
     <>
     <div className="table-container">
@@ -49,4 +41,4 @@ function ManageMultiTable() {
   );
 }
 
-export default ManageMultiTable;
+export default TableMulti;

@@ -1,11 +1,12 @@
 import "../../assets/scss/components.scss";
-import ManageMultiTable from "../../components/table/ManageMultiTable";
-import ManageColumnTable from "../../components/table/ManageColumnTable";
-import ManageTable from "../../components/table/ManageTable";
-import ManageTatleTable from "../../components/table/ManageTatleTable";
+import TableBoard from "../../components/table/TableBoard";
+import TableColumn from "../../components/table/TableColumn";
+import TableControlbar from "../../components/table/TableControlbar";
+import TableDefualt from "../../components/table/TableDefualt";
+import TableMulti from "../../components/table/TableMulti";
+import TableSearchResult from "../../components/table/TableSearchResult";
 import Breadcrumb from "../../components/typo/Breadcrumb";
 import PageTitle from "../../components/typo/PageTitle";
-import ControlbarTable from "../../components/table/ControlbarTable";
 
 const Table = () => {
   return (
@@ -41,13 +42,13 @@ const Table = () => {
           <li>예외{']'} 제목셀의 클래스명은 cell cell-ttl으로 말줄임표가 적용되고, 너비에 제한이 없습니다.</li>
         </ul>
 
-        <ManageTable />
+        <TableDefualt />
       </section>
 
       <section className="component-container">
         <h3 className="component-sub-ttl">게시판 제목이 있는 테이블</h3>
 
-        <ManageTatleTable />
+        <TableBoard />
       </section>
 
       <section className="component-container">
@@ -55,19 +56,25 @@ const Table = () => {
         <p className="component-desc">행방향 테이블은 thead가 생략됩니다.</p>
         <p className="component-desc">대신 첫 셀에 scope를 달아 테이블의 방향을 명시해줍니다.</p>
 
-        <ManageColumnTable />
+        <TableColumn />
       </section>
 
       <section className="component-container">
         <h3 className="component-sub-ttl">양방향 테이블</h3>
 
-        <ManageMultiTable />
+        <TableMulti />
       </section>
 
       <section className="component-container">
-        <h3 className="component-sub-ttl">제어가 가능한 테이블</h3>
+        <h3 className="component-sub-ttl">버튼, 셀렉트가 있는 테이블</h3>
 
-        <ControlbarTable />
+        <TableControlbar />
+      </section>
+
+      <section className="component-container">
+        <h3 className="component-sub-ttl">테이블 검색결과</h3>
+
+        <TableSearchResult />
       </section>
     </>
   );
