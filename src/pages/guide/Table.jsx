@@ -5,6 +5,7 @@ import TableControlbar from "../../components/table/TableControlbar";
 import TableDefualt from "../../components/table/TableDefualt";
 import TableMulti from "../../components/table/TableMulti";
 import TableSearchResult from "../../components/table/TableSearchResult";
+import TableUserEdit from "../../components/table/TableUserEdit";
 import Breadcrumb from "../../components/typo/Breadcrumb";
 import PageTitle from "../../components/typo/PageTitle";
 
@@ -75,6 +76,13 @@ const Table = () => {
         <h3 className="component-sub-ttl">테이블 검색결과</h3>
 
         <TableSearchResult />
+      </section>
+
+      <section className="component-container">
+        <h3 className="component-sub-ttl">내용수정</h3>
+        <p className="component-desc">회원정보수정 등 내용을 수정할 때에 사용하는 수정테이블입니다.</p>
+
+        <TableUserEdit />
       </section>
     </>
   );

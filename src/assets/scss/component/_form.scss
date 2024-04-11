@@ -628,6 +628,24 @@
 .image-uplomanage-wrap {
   padding: 20px;
 
+  .img-wrap {
+    @include bg-op($s: 50px);
+    
+    display: block;
+    max-width: 200px;
+    width: 100%;
+    height: 100%;
+    max-height: 150px;
+    background-color: color(gray-200);
+    background-image: url('data:image/svg+xml,<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="5" y="5" width="190" height="190" rx="7" stroke="%23D9D9D9" stroke-width="10"/><path d="M64.5 134L95.2439 166.25H33.7561L64.5 134Z" fill="%23D9D9D9"/><path d="M125.5 125L164.904 166.25H86.0958L125.5 125Z" fill="%23D9D9D9"/></svg>');
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
   .inp-grp {
     display: flex;
     padding: 0;
