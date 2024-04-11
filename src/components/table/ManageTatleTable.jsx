@@ -28,11 +28,11 @@ function ManageTatleTable() {
                   <label htmlFor="chck-all" className="chck-icon">전체선택</label>
                 </div>
               </th>
-              <th className="cell cell-num">NO</th>
-              <th className="cell cell-division">이름</th>
+              <th className="cell cell-80">NO</th>
+              <th className="cell cell-150">이름</th>
               <th className="cell cell-ttl">제목</th>
-              <th className="cell cell-date">작성일자</th>
-              <th className="cell cell-more">상세보기</th>
+              <th className="cell cell-150">작성일자</th>
+              <th className="cell cell-120">상세보기</th>
             </tr>
           </thead>
           {/* TODO: 리스트는 한 장에 n개씩 보입니다. */}
@@ -49,11 +49,11 @@ function ManageTatleTable() {
                   <label htmlFor="chck1" className="chck-icon">선택</label>
                 </div>
               </td>
-              <td className="cell cell-num">5</td>
-              <td className="cell cell-division">홍길동</td>
+              <td className="cell cell-80">5</td>
+              <td className="cell cell-150">홍길동</td>
               <td className="cell cell-ttl">제목이 들어갑니다 아주 아주 길게 들어갑니다 그러면 이렇게 말줄임표로 되지요 말줄임표는 전부 볼 수 있어야 하니 보기버튼을 추가해야겠구나제목이 들어갑니다 아주 아주 길게 들어갑니다 그러면 이렇게 말줄임표로 되지요 말줄임표는 전부 볼 수 있어야 하니 보기버튼을 추가해야겠구나</td>
-              <td className="cell cell-date">2020.02.02</td>
-              <td className="cell cell-more"><a href="">자세히 보기</a></td>
+              <td className="cell cell-150">2020.02.02</td>
+              <td className="cell cell-120"><a href="">자세히 보기</a></td>
             </tr>
             {/* 두번째 줄 */}
             <tr className="manage-table-row">
@@ -68,11 +68,11 @@ function ManageTatleTable() {
                   <label htmlFor="chck1" className="chck-icon">선택</label>
                 </div>
               </td>
-              <td className="cell cell-num">5</td>
-              <td className="cell cell-division">홍길동</td>
+              <td className="cell cell-80">5</td>
+              <td className="cell cell-150">홍길동</td>
               <td className="cell cell-ttl">제목들어갑니다아주아주길게들어갑니다그러면이렇게말줄임표로되지요말줄임표는전부볼수있어야하니보기버튼을추가해야겠구나띄어쓰기없음제목들어갑니다아주아주길게들어갑니다그러면이렇게말줄임표로되지요말줄임표는전부볼수있어야하니보기버튼을추가해야겠구나띄어쓰기없음</td>
-              <td className="cell cell-date">2020.02.02</td>
-              <td className="cell cell-more"><a href="">자세히 보기</a></td>
+              <td className="cell cell-150">2020.02.02</td>
+              <td className="cell cell-120"><a href="">자세히 보기</a></td>
             </tr>
           </tbody>
         </table>

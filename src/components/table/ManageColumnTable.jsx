@@ -17,19 +17,19 @@ function ManageColumnTable() {
           </caption>
           <tbody>
             <tr className="manage-table-row">
-              <th scope="row" className="cell cell-division">분류명</th>
-              <td className="cell cell-division">일반 셀</td>
-              <td className="cell cell-division">일반 셀</td>
-              <td className="cell cell-division">일반 셀</td>
-              <td className="cell cell-date">2020.02.02</td>
+              <th scope="row" className="cell cell-150">분류명</th>
+              <td className="cell cell-150">일반 셀</td>
+              <td className="cell cell-150">일반 셀</td>
+              <td className="cell cell-150">일반 셀</td>
+              <td className="cell cell-150">2020.02.02</td>
             </tr>
             {/* 두번째 줄 */}
             <tr className="manage-table-row">
-              <th scope="row" className="cell cell-division">분류명</th>
-              <td className="cell cell-division">일반 셀</td>
-              <td className="cell cell-division">일반 셀</td>
-              <td className="cell cell-division">일반 셀</td>
-              <td className="cell cell-date">2020.02.02</td>
+              <th scope="row" className="cell cell-150">분류명</th>
+              <td className="cell cell-150">일반 셀</td>
+              <td className="cell cell-150">일반 셀</td>
+              <td className="cell cell-150">일반 셀</td>
+              <td className="cell cell-150">2020.02.02</td>
             </tr>
           </tbody>
         </table>

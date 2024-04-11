@@ -6,10 +6,38 @@
 // bd-main
 // bd-red
 
-function ManageTable() {
+function ControlbarTable() {
   return (
     <>
     <div className="table-container">
+      <div className="table-control-wrap flex-btw-wrap">
+        <div className="table-control-left">
+          <div className="inp-grp">
+            <select
+              name="selec3"
+              id="selec3"
+              className="input inp-select with-conts"
+            >
+              <option value="전체" selected>등록순</option>
+              <option value="옵션1">옵션1</option>
+            </select>
+            <select
+              name="selec4"
+              id="selec4"
+              className="input inp-select with-conts"
+            >
+              <option value="전체" selected>20개씩</option>
+              <option value="옵션1">옵션1</option>
+            </select>
+          </div>
+        </div>
+        <div className="table-control-right">
+          <div className="btns-wrap">
+            <button className="btn btn-l btn-bd-basic">삭제</button>
+            <button className="btn btn-l btn-bd-basic">파일 다운로드</button>
+          </div>
+        </div>
+      </div>
       <div className="table-wrap scroll-custom">
         <table className="manage-table">
           <caption className="voice-only">
@@ -67,4 +95,4 @@ function ManageTable() {
   );
 }
 
-export default ManageTable;
+export default ControlbarTable;

@@ -399,12 +399,28 @@
     }
   }
 
-  .cell-num {
+  .cell-80 {
     width: 80px;
   }
 
-  .cell-division {
+  .cell-100 {
+    width: 100px;
+  }
+
+  .cell-120 {
+    width: 120px;
+  }
+
+  .cell-150 {
     width: 150px;
+  }
+
+  .cell-180 {
+    width: 180px;
+  }
+
+  .cell-200 {
+    width: 200px;
   }
 
   .cell-ttl {
@@ -413,14 +429,6 @@
 
   td.cell-ttl {
     text-align: left;
-  }
-
-  .cell-date {
-    width: 150px;
-  }
-
-  .cell-more {
-    width: 120px;
   }
 }
 
