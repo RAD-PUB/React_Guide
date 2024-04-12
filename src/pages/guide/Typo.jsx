@@ -3,7 +3,7 @@ import Breadcrumb from "../../components/typo/Breadcrumb";
 import PageTitle from "../../components/typo/PageTitle";
 import SubTitle from "../../components/typo/SubTitle";
 
-const Typo = () => {
+function Typo () {
   return (
     <>
       {/* page title */}
@@ -124,6 +124,6 @@ const Typo = () => {
       </section>
     </>
   );
-};
+}
 
 export default Typo;

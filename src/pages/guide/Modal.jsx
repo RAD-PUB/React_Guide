@@ -1,6 +1,6 @@
 import '../../assets/scss/components.scss'
 
-const Modal = () => {
+function Modal () {
     return(
         <div>Modal</div>
     )

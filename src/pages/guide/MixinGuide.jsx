@@ -1,7 +1,7 @@
 import '../../assets/scss/components.scss'
 import '../../assets/scss/mixinGuide.scss'
 
-const MixinGuide = () => {
+function MixinGuide () {
     return (
         <>
           <h2 className="main-ttl">믹스인 사용 설명서</h2>

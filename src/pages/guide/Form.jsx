@@ -1,6 +1,6 @@
 import '../../assets/scss/components.scss'
 
-const Form = () => {
+function Form () {
     return (
         <div>Form</div>
     )
