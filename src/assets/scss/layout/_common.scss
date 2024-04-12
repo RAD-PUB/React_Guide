@@ -160,3 +160,12 @@
         border-color: color(main-700);
     }
 }
+
+.tab-content {
+    display: none;
+    padding: 20px 10px;
+
+    &.active {
+        display: block;
+    }
+}
