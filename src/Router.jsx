@@ -2,6 +2,12 @@ import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Content from './pages/Content'
 
+/* 
+lazy를 걸어둔 이유: 
+1 컴포넌트에서만 쓰이는 스타일이 적용됨
+2 참고용페이지라 배포에 들어가지 않고, 느려도 상관없음
+ */
+
 const MixinGuide = React.lazy(() => import('./pages/guide/MixinGuide'));
 const Input = React.lazy(() => import('./pages/guide/Input'));
 const Button = React.lazy(() => import('./pages/guide/Button'));

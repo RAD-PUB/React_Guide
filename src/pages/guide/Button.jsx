@@ -71,7 +71,7 @@ function Button () {
                 </div>
 
                 <div className="btns-wrap">
-                  <ButtonMedium color="bd-red">유효한 컬러값</ButtonMedium>
+                  <ButtonMedium color="bd-red" disabled>유효한 컬러값</ButtonMedium>
                 </div>
               </div>
             </li>
@@ -192,6 +192,26 @@ function Button () {
               &lt;<span className="blue">div</span> class=<span className="skyblue">{'"btns-wrap"'}</span>&gt;<br />
               &lt; <span className="green">ButtonXLarge</span> <span className="skyblue">color</span>{'="'}<span className="red">main</span>{'"'}
               &gt;<span>버튼입니다</span>&lt;{'/'}<span className="green">ButtonXLarge</span> &gt;<br />
+              &lt;{'/'}<span className="blue">div</span>&gt;
+            </div>
+          </aside>
+
+        </article>
+
+        <article>
+          <h4 className="component-sub-ttl">button disabled</h4>
+          <p className="component-desc">비활성화되면 비활성화 스타일이 적용되고, 클릭불가로 커서모양이 변경됩니다.</p>
+          <div className="btns-wrap">
+            <ButtonXLarge color="basic" disabled>버튼은</ButtonXLarge>
+            <ButtonXLarge color="main" disabled>모두</ButtonXLarge>
+            <ButtonXLarge color="red" disabled>컴포넌트입니다</ButtonXLarge>
+          </div>
+          
+          <aside className="code-wrap">
+            <div className="code">
+              &lt;<span className="blue">div</span> class=<span className="skyblue">{'"btns-wrap"'}</span>&gt;<br />
+              &lt; <span className="green">ButtonXLarge</span> <span className="skyblue">color</span>{'="'}<span className="red">main</span>{'"'}
+              <span className="skyblue"> disabled</span>&gt;<span>버튼입니다</span>&lt;{'/'}<span className="green">ButtonXLarge</span> &gt;<br />
               &lt;{'/'}<span className="blue">div</span>&gt;
             </div>
           </aside>
