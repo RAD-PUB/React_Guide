@@ -69,9 +69,6 @@ function Tab() {
               탭의 활성화는 주석으로{" "}
               {" '탭 제목, 컨텐츠, 활성화시키는 클래스를 적어' "} 전달합니다.
             </h3>
-            <p className="component-desc">
-              ※ 아토믹 폴더구조에서 organism 혹은 tamplate에 배치합니다.
-            </p>
           </section>
           {/* content 2 */}
           <section
