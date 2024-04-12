@@ -8,7 +8,7 @@
 
 function ButtonLarge(ButtonLargeProps) {
   return (
-    <button className={`btn btn-l btn-${ButtonLargeProps.color}`}>
+    <button className={`btn btn-l btn-${ButtonLargeProps.color}`} onClick={ButtonLargeProps.onclick}>
       {ButtonLargeProps.children}
     </button>
   );

@@ -8,7 +8,7 @@
 
 function ButtonMedium(ButtonMediumProps) {
   return (
-    <button className={`btn btn-m btn-${ButtonMediumProps.color}`}>
+    <button className={`btn btn-m btn-${ButtonMediumProps.color}`} onClick={ButtonMediumProps.onclick}>
       {ButtonMediumProps.children}
     </button>
   );

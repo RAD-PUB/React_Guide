@@ -6,7 +6,7 @@ import ButtonLarge from "../../components/button/ButtonLarge";
 import ButtonXLarge from "../../components/button/ButtonXLarge";
 import Pagination from "../../components/button/Pagination";
 
-const Button = () => {
+function Button () {
   return (
     <>
       <section>
@@ -218,6 +218,6 @@ const Button = () => {
       </section>
     </>
   );
-};
+}
 
 export default Button;
