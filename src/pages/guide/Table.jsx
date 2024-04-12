@@ -9,7 +9,7 @@ import TableUserEdit from "../../components/table/TableUserEdit";
 import Breadcrumb from "../../components/typo/Breadcrumb";
 import PageTitle from "../../components/typo/PageTitle";
 
-const Table = () => {
+function Table () {
   return (
     <>
       <section>
@@ -86,6 +86,6 @@ const Table = () => {
       </section>
     </>
   );
-};
+}
 
 export default Table;

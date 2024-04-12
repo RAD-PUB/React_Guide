@@ -64,25 +64,28 @@ function Tab() {
           {/* content 1 */}
           <section
             className={`tab-content ${tabActive == "tab1" ? "active" : ""}`}
-            >
-            <h3>탭의 활성화는 주석으로 {" '탭 제목, 컨텐츠, 활성화시키는 클래스를 적어' "} 전달합니다.</h3>
-            
+          >
+            <h3>
+              탭의 활성화는 주석으로{" "}
+              {" '탭 제목, 컨텐츠, 활성화시키는 클래스를 적어' "} 전달합니다.
+            </h3>
           </section>
           {/* content 2 */}
           <section
             className={`tab-content ${tabActive == "tab2" ? "active" : ""}`}
-            >
-            <h3>개발작업이 많거나 퍼블 일정에 여유가 있다면 탭의 활성화도 해서 전달합니다.</h3>
-            
+          >
+            <h3>
+              개발작업이 많거나 퍼블 일정에 여유가 있다면 탭의 활성화도 해서
+              전달합니다.
+            </h3>
           </section>
-            {/* content 3 */}
+          {/* content 3 */}
           <section
             className={`tab-content ${tabActive == "tab3" ? "active" : ""}`}
           >
             <h3>탭이 추가될 수 있으므로 주석으로 구분해줍니다.</h3>
-            
           </section>
-            {/* content 4 */}
+          {/* content 4 */}
           <section
             className={`tab-content ${tabActive == "tab4" ? "active" : ""}`}
           >
