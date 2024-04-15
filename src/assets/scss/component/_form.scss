@@ -168,7 +168,6 @@
 // ---------------------- checkbox custom
 .chck-icon {
   @include square(20px);
-  @include bg-url(icon, "icon_check.svg");
   @include bg-op;
 
   overflow: hidden;
@@ -183,6 +182,7 @@
   letter-spacing: -100px;
   cursor: pointer;
   transition: all 0.3s;
+  background-image: url('/src/assets/images/icon/icon_check.svg');
 
   @at-root .inp-chck:checked ~ & {
     border-color: color(main);
@@ -190,10 +190,10 @@
   }
 
   @at-root .inp-chck:disabled ~ & {
-    @include bg-url(icon, "icon_check_disabled.svg");
 
     border-color: color(gray-50);
     background-color: color(gray-50);
+    background-image: url('/src/assets/images/icon/icon_check_disabled.svg');
   }
 }
 
