@@ -7,7 +7,8 @@ const Header = () => {
 		"typo", 
 		"table", 
 		"tab", 
-		"modal"
+		"modal",
+    'access'
 	];
 
   return (

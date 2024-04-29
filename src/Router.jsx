@@ -15,6 +15,7 @@ const Typo = React.lazy(() => import('./pages/guide/Typo'));
 const Table = React.lazy(() => import('./pages/guide/Table'));
 const Tab = React.lazy(() => import('./pages/guide/Tab'));
 const Modal = React.lazy(() => import('./pages/guide/Modal'));
+const Access = React.lazy(() => import('./pages/guide/Access'))
 
 const Router = () => {
     return (
@@ -28,6 +29,7 @@ const Router = () => {
                 <Route path='/table' element={<Table />} />
                 <Route path='/tab' element={<Tab />} />
                 <Route path='/modal' element={<Modal />} />
+                <Route path='/access' element={<Access />} />
             </Routes>
         </BrowserRouter>
     )

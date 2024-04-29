@@ -36,6 +36,12 @@ p.component-warning {
 .component-desc {
 	margin-top: 5px;
 	font-size: 18px;
+	&.accs {
+		margin-bottom: 40px;
+		p {
+			margin-bottom: 15px;
+		}
+	}
 }
 
 .component-desc-list {

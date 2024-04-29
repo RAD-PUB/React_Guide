@@ -20,7 +20,7 @@ function Modal () {
       <>
         <section>
           <PageTitle>modal 설명서</PageTitle>
-          <Breadcrumb>HOME &gt; 탭 설명서</Breadcrumb>
+          <Breadcrumb>HOME &gt; modal 설명서</Breadcrumb>
         </section>
 
         <section className='component-container'>
